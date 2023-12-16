@@ -1,0 +1,30 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Sistema Comanda</string>
+    <string name="extended_fab_content_desc">Descripción del botón de acción flotante extendido</string>
+    <string name="extended_fab_label">Botón de acción flotante extendido</string>
+    <string name="textview_title">Título del TextView</string>
+    <string name="button_text">Click me!</string>
+
+    <string-array name="cajas">
+        <item>C-01</item>
+        <item>C-02</item>
+        <item>C-03</item>
+        <item>C-04</item>
+    </string-array>
+
+    <string-array name="metPago">
+        <item>Opción 1</item>
+        <item>Opción 2</item>
+        <item>Opción 3</item>
+    </string-array>
+
+    <string-array name="estadosMesa">
+        <item>Seleccionar estado</item>
+        <item>Libre</item>
+        <item>Ocupado</item>
+    </string-array>
+
+
+    <string name="element_text">Elemento</string>
+
+</resources>

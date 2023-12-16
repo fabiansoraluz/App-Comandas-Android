@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".utils.appConfig"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_kotlin"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <!--Activity Main - Login-->
+        <activity
+            android:name=".vistas.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <!--iNDEX COMANDAS-->
+        <activity
+            android:name=".vistas.inicio.IndexComandasActivity"
+            android:exported="true">
+        </activity>
+
+        <!--CONFIGURACION VISTA-->
+        <activity
+            android:name=".vistas.inicio.ConfiguracionVista"
+            android:exported="true">
+        </activity>
+
+        <!--CONFIGURACION categoria platos-->
+        <activity
+            android:name=".vistas.categoria_platos.CategoriaPlatosActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.categoria_platos.NewCatPlatoActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.categoria_platos.EditCatPlatoActivity"
+            android:exported="true">
+        </activity>
+
+
+
+        <!--CONFIGURACION Empleados-->
+        <activity
+            android:name=".vistas.empleados.NuevoEmpleado"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.empleados.ActualizarEmpleado"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.empleados.DatosEmpleados"
+            android:exported="true">
+        </activity>
+
+
+        <!--Configuración de mesas-->
+
+        <activity
+            android:name=".vistas.mesas.DatosMesas"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.mesas.NuevaMesa"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.mesas.ActualizarMesas"
+            android:exported="true">
+        </activity>
+
+
+        <!--*******************Configuración de Establecimiento*******************-->>
+        <activity
+            android:name=".vistas.establecimiento.NuevoEstablecimiento"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.establecimiento.DatosEstablecimiento"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.establecimiento.ActualizarEstablecimiento"
+            android:exported="true">
+        </activity>
+        <!--*********************************************************-->
+
+
+        <!--Configuración de categoría platos-->
+
+
+        <!--Configuración de  platos-->
+
+        <activity
+            android:name=".vistas.platos.DatosPlatos"
+            android:exported="true"
+            tools:ignore="DuplicateActivity">
+        </activity>
+
+        <activity
+            android:name=".vistas.platos.NuevoPlato"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.platos.ActualizarPlato"
+            android:exported="true">
+        </activity>
+
+
+
+
+        <!--CAJA ACTIVITY-->
+
+        <activity
+            android:name=".vistas.facturar.DatosComprobantes"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.caja_registradora.ActualizarCajas"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.caja_registradora.DatosCajas"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.caja_registradora.NuevaCaja"
+            android:exported="true">
+        </activity>
+
+
+        <!--METODO DE PAGO-->
+
+        <activity
+            android:name=".vistas.metodo_pago.ActualizarMetodoPago"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.metodo_pago.NuevoMetodoPago"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.metodo_pago.DatosMetodoPago"
+            android:exported="true">
+        </activity>
+
+        <!--COMANDAS-->
+        <activity
+            android:name=".vistas.comandas.ComandasVista"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.comandas.EditarComanda"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".vistas.comandas.RegistrarComanda"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".vistas.facturar.FacturarActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".vistas.facturar.DetallesComprobante"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+
+</manifest>

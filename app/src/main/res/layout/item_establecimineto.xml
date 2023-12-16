@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider16"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="275dp"
+                android:layout_marginBottom="86dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="296dp"
+                android:layout_marginBottom="167dp"
+                android:text="Codigo:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtcodListadoEstablecimineto"
+                android:layout_width="64dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="286dp"
+                android:layout_marginBottom="145dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtnombreEstablecimientoList"
+                android:layout_width="114dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="150dp"
+                android:layout_marginBottom="146dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="64dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="201dp"
+                android:layout_marginBottom="168dp"
+                android:text="Nombre:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdirecEstablecimientoList"
+                android:layout_width="119dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="127dp"
+                android:layout_marginTop="88dp"
+                android:layout_marginEnd="146dp"
+                android:layout_marginBottom="72dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="73dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="127dp"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="193dp"
+                android:layout_marginBottom="112dp"
+                android:text="Direccion:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="167dp"
+                android:text="Ruc:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtrucEstablecimientoList"
+                android:layout_width="102dp"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="145dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="64dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="71dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="110dp"
+                android:text="Telf:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtelefonoEstablecimientoList"
+                android:layout_width="101dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="89dp"
+                android:text="TextView" />
+
+            <View
+                android:id="@+id/divider15"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="134dp"
+                android:layout_marginBottom="85dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="37dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="83dp"
+                android:layout_marginEnd="333dp"
+                android:layout_marginBottom="82dp"
+                app:srcCompat="@drawable/esta_item40" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

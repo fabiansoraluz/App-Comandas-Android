@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageplato"
+                android:layout_width="200dp"
+                android:layout_height="270dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="264dp"
+                android:layout_marginBottom="0dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="59dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="193dp"
+                android:layout_marginBottom="99dp"
+                android:text="Codigo:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCodPlatos"
+                android:layout_width="90dp"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="162dp"
+                android:layout_marginBottom="81dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="69dp"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="141dp"
+                android:layout_marginTop="59dp"
+                android:layout_marginEnd="182dp"
+                android:layout_marginBottom="53dp"
+                android:text="Nombre:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNombrePlatos"
+                android:layout_width="97dp"
+                android:layout_height="39dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="141dp"
+                android:layout_marginTop="77dp"
+                android:layout_marginEnd="154dp"
+                android:layout_marginBottom="14dp"
+                android:text="TextView" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="4dp"
+                android:layout_height="88dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="242dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="146dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="77dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginBottom="99dp"
+                android:text="Categoria:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCatNomPlatos"
+                android:layout_width="109dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="80dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="57dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="59dp"
+                android:layout_marginEnd="65dp"
+                android:layout_marginBottom="52dp"
+                android:text="Precio:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPrecioPlatos"
+                android:layout_width="99dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="78dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="32dp"
+                android:text="TextView" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e8f9">
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="409dp"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView3"
+                app:srcCompat="@drawable/top_background_gradiunt" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/top_back_ground_mora" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="123dp"
+                android:layout_height="84dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="@+id/imageView5"
+                app:layout_constraintVertical_bias="0.42"
+                app:srcCompat="@drawable/factura_ca" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="12dp"
+                android:text="Facturar"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comanda"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="@+id/textView40"
+                app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:text="Caja :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="-31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spnCajasP" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        android:text="Comanda :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <EditText
+        android:id="@+id/edtPrecioTotal"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/edittext_background"
+        android:drawableEnd="@drawable/total_fact28"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#BDBDBD"
+        android:textSize="18dp"
+        android:translationX="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDescuento" />
+
+    <EditText
+        android:id="@+id/edtIGV"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="79dp"
+        android:background="@drawable/edittext_background"
+        android:drawableEnd="@drawable/impuestos28"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#BDBDBD"
+        android:textSize="18dp"
+        android:translationX="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtClienteF" />
+
+    <EditText
+        android:id="@+id/edtClienteF"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/edittext_background"
+        android:drawableEnd="@drawable/cliente_fac28"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#BDBDBD"
+        android:textSize="18dp"
+        android:translationX="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmpleadoNombreFacturar" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Cliente :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <EditText
+        android:id="@+id/edtDescuento"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="54dp"
+        android:background="@drawable/edittext_background"
+        android:drawableEnd="@drawable/descuento28"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#BDBDBD"
+        android:textSize="18dp"
+        android:translationX="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSubTotal" />
+
+    <EditText
+        android:id="@+id/edtSubTotal"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/edittext_background"
+        android:drawableEnd="@drawable/total_fact28"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#BDBDBD"
+        android:textSize="18dp"
+        android:translationX="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtIGV" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="Descuento :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/edtEmpleadoNombreFacturar"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/edittext_background"
+        android:drawableEnd="@drawable/empleado_iscon28"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#BDBDBD"
+        android:textSize="18dp"
+        android:translationX="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnMetPagoF" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="20dp"
+        android:text="IGV :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="-10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        android:text="Empleado :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="20dp"
+        android:text="SubTotal :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Total :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="-9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Spinner
+        android:id="@+id/spnCajasP"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/style_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+    <Spinner
+        android:id="@+id/spnTipoComprobante"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/style_spinner"
+        android:translationX="-33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnCajasP" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="20dp"
+        android:text="Comprobante :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <EditText
+        android:id="@+id/edtIdComanda"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/edittext_background"
+        android:drawableEnd="@drawable/comanda_icon28"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#BDBDBD"
+        android:textSize="18dp"
+        android:translationX="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnTipoComprobante" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Pago :"
+        android:textColor="#41186E"
+        android:textSize="16dp"
+        android:translationX="-28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <Spinner
+        android:id="@+id/spnMetPagoF"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/style_spinner"
+        android:translationX="-1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtIdComanda" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnFacturarF"
+        style="@android:style/Widget.Button"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_background"
+        android:text="Facturar"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnCancelar"
+        style="@android:style/Widget.Button"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:background="@drawable/style_btn_el"
+        android:text="Cancelar"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "637545054351",
+    "project_id": "proyecto-ventacomandas-kotlin",
+    "storage_bucket": "proyecto-ventacomandas-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637545054351:android:2eb71fab0bd29d8dd930fa",
+        "android_client_info": {
+          "package_name": "com.example.project_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637545054351-k0mlltlng84o4crk3vhrojmo1ogf4m8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiuvAFPwKE6-4Mi-aO2JNPBEtiFufGdI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637545054351-k0mlltlng84o4crk3vhrojmo1ogf4m8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

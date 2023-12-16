@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="94dp"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="249dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="119dp"
+                android:text="Metodo Pago:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="249dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="66dp"
+                android:layout_marginBottom="77dp"
+                android:text="Caja:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCajaList"
+                android:layout_width="115dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="249dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="58dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="249dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="66dp"
+                android:layout_marginBottom="35dp"
+                android:text="Total:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalList"
+                android:layout_width="112dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="249dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginEnd="31dp"
+                android:layout_marginBottom="14dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tvMetPagoList"
+                android:layout_width="117dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="249dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginBottom="100dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="208dp"
+                android:layout_marginBottom="102dp"
+                android:text="Codigo:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="106dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="67dp"
+                android:layout_marginEnd="179dp"
+                android:layout_marginBottom="59dp"
+                android:text="Fecha Emisión:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFechaEmisionList"
+                android:layout_width="107dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginEnd="179dp"
+                android:layout_marginBottom="41dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tvCodComprobanteList"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="208dp"
+                android:layout_marginBottom="84dp"
+                android:text="TextView" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="3dp"
+                android:layout_height="110dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="224dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="165dp"
+                android:layout_marginBottom="21dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="41dp"
+                android:layout_marginEnd="314dp"
+                android:layout_marginBottom="54dp"
+                app:srcCompat="@drawable/item_comprobante50" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
